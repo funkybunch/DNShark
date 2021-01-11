@@ -1,3 +1,9 @@
+.DS_Store
+.cache
+.idea
+*.iml
+views/scss/.sass-cache
+
 # Logs
 logs
 *.log

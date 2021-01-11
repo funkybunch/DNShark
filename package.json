@@ -1,0 +1,43 @@
+{
+  "name": "dnshark",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "electron .",
+    "run": "electron .",
+    "dev": "npm-run-all -p sass:* js:*"
+  },
+  "dependencies": {
+    "do-wrapper": "^3.25.3",
+    "express": "^4.16.1",
+    "handlebars": "^4.1.2",
+    "http-errors": "^1.6.3",
+    "keytar": "^4.13.0",
+    "morgan": "^1.9.1",
+    "yargs": "^14.0.0"
+  },
+  "description": "A DigitalOcean DNS Management tool with automatic Let's Encrypt certificate issuing - supporting both HTTP and DNS challenge types.",
+  "main": "app.js",
+  "devDependencies": {
+    "cssnano": "^4.1.10",
+    "electron": "^6.0.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/funkybunch/DnSSL.git"
+  },
+  "keywords": [
+    "DigitalOcean",
+    "DNS",
+    "SSL",
+    "LetsEncrypt",
+    "Lets",
+    "Encrypt"
+  ],
+  "author": "Mark Adkins <mark@kuipr.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/funkybunch/DnSSL/issues"
+  },
+  "homepage": "https://github.com/funkybunch/DnSSL#readme"
+}
