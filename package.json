@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "do-wrapper": "^3.25.3",
-    "express": "^4.16.1",
+    "express": "^4.18.2",
     "handlebars": "^4.1.2",
     "http-errors": "^1.6.3",
     "keytar": "^4.13.0",
